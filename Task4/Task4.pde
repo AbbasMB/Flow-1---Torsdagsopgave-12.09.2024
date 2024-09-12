@@ -29,10 +29,25 @@ for (start = 10; start >=  0; start--) {
 
 //Opgave 4.d
 int i = 1;
-while(i <= 20){
+while (i <= 20) {
   i = i + 1;
-  if (i % 2 == 0){
-  println(i);
+  if (i % 2 == 0) {
+    println(i);
   }
-  
+}
+
+int startW = 20;
+while (startW >= 0) {
+  if (startW == 3) {
+    println("three");
+  } else if (startW == 2) {
+    println("two");
+  } else if (startW == 1) {
+    println("one");
+  } else if (startW == 0) {
+    println("Take Off!");
+  } else {
+    println(startW);
+  }
+  startW = startW -1;
 }
